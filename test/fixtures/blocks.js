@@ -1,14 +1,12 @@
 var a, b, c;
 
-if ( myFunction() ) {
+if ( myFunction() )
     // Expressions
-}
-else if ( ( a && b ) || c ) {
+else if ( ( a && b ) || c )
     // Expressions
-}
-else {
-// Expressions
-}
+else
+  // Expressions
+
 
 if ( true )
   console.log(true);

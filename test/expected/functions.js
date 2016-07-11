@@ -11,26 +11,26 @@ foo( node, 'property', 2 );
 // No space on either side of the argument
 foo(function() {
 	// Do stuff
-});
+} );
 
-foo({
+foo( {
 	a: 'alpha',
 	b: 'beta'
-});
+} );
 
-foo([
+foo( [
 	'alpha',
 	'beta'
-]);
+] );
 
 // Function with a callback, object, or array as the first argument:
 // No space before the first argument
-foo(function() {
+foo( function( ) {
 	// Do stuff
 }, options );
 
 // Function with a callback, object, or array as the last argument:
 // No space after after the last argument
-foo( data, function() {
+foo( data, function( ) {
 	// Do stuff
-});
+} );

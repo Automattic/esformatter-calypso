@@ -1,7 +1,8 @@
-(function( $ ) {
+( function( ) {
 	// Expressions indented
-})( jQuery );
+} )( );
 
-(function( $ ) {
+( function( a, b ) {
 	// Expressions indented
-}( jQuery ));
+	var c = a + b;
+} ( 1, 2 ) );
